@@ -65,7 +65,7 @@ plugin:
   mybatis:
     secure:
       cryptoKey: mykeykeymykeykey
-      defaultExecutor: org.strong.mybatis.plugin.secure.executor.AesHexSecureExecutor
+      defaultExecutor: AesHexSecureExecutor
 ```
 
 ② 自定义注解秘钥
